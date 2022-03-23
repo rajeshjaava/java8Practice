@@ -1,4 +1,4 @@
-package com.learnings.core;
+package com.learning.core.concurrency;
 
 public class ConcurrencyTest {
 
