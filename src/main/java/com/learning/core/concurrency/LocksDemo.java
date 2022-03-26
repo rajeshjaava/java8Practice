@@ -11,7 +11,7 @@ public static void main(String args[]) {
 	for(int i=0;i<10;i++) {
 		Runnable runnable=new Worker(" "+i);
 		executor.execute(runnable);
-	}
+
 	executor.shutdown();
 	while(!executor.isTerminated()) {
 		System.out.println("waiting threads to complete ");
@@ -19,6 +19,7 @@ public static void main(String args[]) {
 	
 }
 
+}
 }
 class Worker implements Runnable{
 	private String name;
@@ -45,4 +46,5 @@ class Worker implements Runnable{
 	}
 	
 }
+
  
