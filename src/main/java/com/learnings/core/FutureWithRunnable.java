@@ -16,6 +16,7 @@ public class FutureWithRunnable {
 	 ExecutorService executor = Executors.newFixedThreadPool(2);
 	 executor.submit(futureTask1);
 	 executor.submit(futureTask2);
+	// executor.execute(new MyRunnable(40));
 	 while (true) {
          try {
 
