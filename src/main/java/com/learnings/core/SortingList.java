@@ -21,6 +21,7 @@ public class SortingList {
 		System.out.println("sorting names ");
 		arrayList.stream().sorted(Comparator.comparing(User::getName)).forEach(System.out::println);
 		
+		
 	}
 
 }
