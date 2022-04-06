@@ -18,8 +18,6 @@ public class HashmapTest {
 		map1.put("Divya", "wife");
 		map1.put("Advik", "son");
 		map1.put("1", "1");
-		System.out.println(map1.get("Rajesh"));
-		
 		HashMap<String, Integer> map2 = new HashMap<String, Integer>();
 		map2.put("Sunday", 01);
 		map2.put("Monday", 02);
@@ -27,7 +25,7 @@ public class HashmapTest {
 		map2.put("Friday", null);
 
 		System.out.println(map1.get("Friday"));
-		
+		                                                                         
 		map2.remove("Friday");
 		
 		////iterator on keys and retrieve values
@@ -83,6 +81,37 @@ public class HashmapTest {
 	System.out.println(s1);
 	
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
