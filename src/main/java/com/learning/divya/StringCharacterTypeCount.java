@@ -8,12 +8,7 @@ public class StringCharacterTypeCount {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s="abc12$?-^";
-		List l1=new ArrayList();
-		char[]c=s.toCharArray();
-		for(Character c1:c) {
-			l1.add(c1);
-		}
+		
 	
 	// add to list 
 		// check each character with instance of 
@@ -28,6 +23,14 @@ public class StringCharacterTypeCount {
 		long count2=l.stream().filter(a->a instanceof Long).count();
 		System.out.println("count of Long  "+count2);
 		
+		
+		String s="a   bc12$?-^";
+		List l1=new ArrayList();
+		char[]c=s.toCharArray();
+		for(Character c1:c) {
+			l1.add(c1);
+		}
+		
 		System.out.println("========= string array cound type of characters============");
 		l1.stream().forEach(System.out::print);
 		System.out.println();
@@ -35,7 +38,8 @@ public class StringCharacterTypeCount {
 		System.out.println("digits "+l1.stream().filter(a->Character.isDigit((char) a)).count());
 		System.out.println("alphabet "+l1.stream().filter(a-> Character.isAlphabetic((char) a)).count());
 		
-		System.out.println("special characters count  "+l1.stream().filter(a-> !Character.isLetterOrDigit((char) a)).count());
+	
+		System.out.println("special characters count  "+l1.stream().filter(a-> !Character.isLetterOrDigit((char) a)).filter(a-> !Character. isSpace((char) a)).count());
 		
 	}
 
