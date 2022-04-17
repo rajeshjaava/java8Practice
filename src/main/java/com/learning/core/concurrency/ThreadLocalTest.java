@@ -1,12 +1,12 @@
 package com.learning.core.concurrency;
 
-//Java code illustrating initialValue() method
+
 import java.lang.*;
 
 public class ThreadLocalTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		NewThread t1 = new NewThread("quiz1");
 		NewThread t2 = new NewThread("quiz2");
 		
