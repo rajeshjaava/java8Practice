@@ -9,8 +9,7 @@ public class ThreadLocalTest {
 		// TODO Auto-generated method stub
 		NewThread t1 = new NewThread("quiz1");
 		NewThread t2 = new NewThread("quiz2");
-		NewThread t3 = new NewThread("quiz3");
-		NewThread t4 = new NewThread("quiz3");
+		
 	}
 
 }
