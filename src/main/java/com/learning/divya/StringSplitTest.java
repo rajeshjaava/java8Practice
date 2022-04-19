@@ -13,7 +13,7 @@ public class StringSplitTest {
 		int n = s.lastIndexOf("of");
 		
 		//s1
-		System.out.println(n);
+		System.out.println(s1[0]);
 		List<String> l = new ArrayList<String>();
 		for(String e1: s1 )
 		{
