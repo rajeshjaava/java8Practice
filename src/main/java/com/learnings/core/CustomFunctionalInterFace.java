@@ -11,3 +11,12 @@ public class CustomFunctionalInterFace {
 	}
 
 }
+ interface TestFunction{
+	 static void test() {
+		
+	}
+	 static void test1() {
+			
+		}
+	 
+}
