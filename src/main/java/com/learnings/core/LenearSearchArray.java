@@ -1,5 +1,8 @@
 package com.learnings.core;
-
+/*
+ *  author : Rajesh Thokala
+ *  
+ */
 public class LenearSearchArray {
 	public static void main(String args[]) {
 		int a[]= {1,2,3,4,5,10,9,7,19};

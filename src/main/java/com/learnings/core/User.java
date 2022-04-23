@@ -1,5 +1,8 @@
 package com.learnings.core;
-
+/*
+ *  author : Rajesh Thokala
+ *  
+ */
 public class User {
 	public String getName() {
 		return name;

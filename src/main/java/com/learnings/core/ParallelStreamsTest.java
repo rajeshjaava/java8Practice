@@ -1,5 +1,8 @@
 package com.learnings.core;
-
+/*
+ *  author : Rajesh Thokala
+ *  
+ */
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 

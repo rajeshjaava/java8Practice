@@ -1,5 +1,8 @@
 package com.learnings.core;
-
+/*
+ *  author : Rajesh Thokala
+ *  
+ */
 public class InheritanceTest {
 
 	public static void main(String[] args) {

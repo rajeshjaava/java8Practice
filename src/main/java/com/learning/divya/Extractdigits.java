@@ -4,10 +4,27 @@ public class Extractdigits {
 	
 	public void printintegers(String s) {
 		s=s.replaceAll("[^\\d]", " ");
+
 		s=s.trim();
+	
 		s=s.replaceAll(" +"," ");
 		System.out.println("extracted digits are " +s);
-		
+		int intcount=0;
+		int spacecount=0;
+		//char[] ch = s.toCharArray();
+		for(int i=0; i<=s.length()-1; i++)
+		{
+		if(s.charAt(i)==' ')
+		{
+			spacecount++;
+		}
+		else
+		{
+			intcount++;
+			
+		}
+		}
+		System.out.println("Integers count is" + intcount );
 		
 		
 	}
@@ -57,7 +74,7 @@ public class Extractdigits {
 	public static void main(String args[]) {
 		String s = "#asr144dsfs4545 &&HHHh123b4 ";
 		Extractdigits e = new Extractdigits();
-		//e.printintegers(s);
+		e.printintegers(s);
 		e.findwhat(s);
 //		String r ;
 //		String r1 = new String(s);
