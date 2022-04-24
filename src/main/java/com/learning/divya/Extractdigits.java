@@ -2,6 +2,7 @@ package com.learning.divya;
 
 public class Extractdigits {
 	
+	public int a =0;
 	public void printintegers(String s) {
 		s=s.replaceAll("[^\\d]", " ");
 
@@ -76,14 +77,14 @@ public class Extractdigits {
 		Extractdigits e = new Extractdigits();
 		e.printintegers(s);
 		e.findwhat(s);
-//		String r ;
-//		String r1 = new String(s);
-//
-//		
-//		
-//		
-//		System.out.println("value is" +r1);
+		String r ;
+		String r1 = new String(s);
+
+	
+	
 		
-	}
+	System.out.println("value is" +r1);
+		
+}
 
 }
