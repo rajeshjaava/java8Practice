@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 public class ThreadPoolTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(2);
         
         for (int i = 1; i <= 5; i++) 
