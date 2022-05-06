@@ -5,6 +5,7 @@ package com.learnings.core;
  */
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -23,7 +24,6 @@ public class SortingList {
 		
 		System.out.println("sorting names ");
 		arrayList.stream().sorted(Comparator.comparing(User::getName)).forEach(System.out::println);
-		
 		
 	}
 
