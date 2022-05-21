@@ -3,9 +3,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
-/*
- * author : rajesh thokala
- */
+
+
 public class FindingDuplicatesStream {
 
 	public static void main(String[] args) {
